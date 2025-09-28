@@ -1,37 +1,39 @@
-**Razorpay**
+# 🚀 Razorpay Integration Project  
 
+This project is a **Spring Boot** application that demonstrates hands-on integration with the **Razorpay API** for handling **contacts, fund accounts, and payments**.  
+It provides **RESTful APIs** to manage:  
+- **Contacts**  
+- **Fund accounts** (via **Bank Account** or **UPI**)  
+- Other **Razorpay-related operations**  
 
-This project is a Spring Boot application that demonstrates hands-on integration with the Razorpay API for handling contacts, fund accounts, and payments. It provides RESTful APIs to manage contacts, fund accounts (via bank accounts or UPI), and other Razorpay-related operations.
+---
 
-⚙️ Tech Stack
-Backend
+## ⚙️ **Tech Stack**  
 
-Language: Java 17
+### 🖥️ **Backend**  
+- **Language**: **Java 17**  
+- **Frameworks**:  
+  - **Spring Boot (v3.2.2)**  
+  - **Spring Web** (REST API support)  
+  - **Spring Data JPA** (Database persistence)  
 
-Frameworks:
+### 🗄️ **Database**  
+- **MySQL** (via **mysql-connector**)  
 
-Spring Boot (v3.2.2)
+### 🔧 **ORM & Utilities**  
+- **Hibernate** (through JPA)  
+- **Lombok** (to reduce boilerplate code)  
 
-Spring Web (REST API support)
+### 📦 **Build & Dependency Management**  
+- **Maven**  
 
-Spring Data JPA (Database persistence)
+### 🧪 **Testing**  
+- **JUnit 5** (via `spring-boot-starter-test`)  
 
-Database: MySQL (via mysql-connector)
+### 🌐 **External APIs**  
+- **Razorpay API**  
+  - Used for **contact creation**  
+  - **Fund account management**  
+  - **Transactions**  
 
-ORM & Utilities:
-
-Hibernate (through JPA)
-
-Lombok (for boilerplate code reduction)
-
-Build & Dependency Management
-
-Maven
-
-Testing
-
-JUnit 5 (via spring-boot-starter-test)
-
-External APIs
-
-Razorpay API (used for contact creation, fund account management, and transactions)
+---
